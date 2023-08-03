@@ -1,0 +1,61 @@
+#contenedorpadre{
+    background-color: rgb(210, 240, 14);
+    border: 2px solid  #f4abf2;
+}
+
+#cabecera{
+    background-color: #f7e812;
+    height: 20%;
+}
+
+#menu{
+    height: 10%;
+    background-color: blueviolet;
+}
+
+#izquierda{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+    float: left;
+}
+
+#derecha{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(10, 89, 62);
+    float: right;
+}
+
+#pie{
+    height: 10%;
+    background-color: black;
+    clear: both;
+}
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.boton{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(22, 154, 20);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.tablero1{
+    margin-top: 10px;
+    font-size: 16px;
+    border: #07971d solid 1px;
+    height: 50px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            h1{
+                font-size: 70px;
+                color: brown;
+                margin-top: 90px;                
+            }
+            .contenedor{
+                border: 5px solid;
+                border-color: blue;               
+            }
+
+            #div1{
+                margin-top: 10px;
+                border: 10px solid ;
+                border-color: aquamarine;
+            }
+
+            span{
+                font-size: 20px;
+                color: rgb(36, 106, 167);
+                font-family: cursive;
+            }
+
+            p span{
+                color: black;
+                font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            p>p>span{
+                font-size: 20px;
+                color: aqua;
+                border-color: blue;
+                border: solid 10px;
+            }
+        </style>
+        <body>
+            <div class="contenedor">
+                <h1> titulo de la pagina </h1>
+                <h1> titulo 2 de la pagina </h1>
+                <p> este es un parrafo del div </p>
+            </div>
+
+            <div id="div1">
+                <h1> titulo de la pagina </h1>
+                <h1> titulo 2 de la pagina </h1>
+                <p> este es un parrafo del div </p>
+                <span> texto 1</span>
+                <p>
+                    <p>
+                        <span>
+                             texto 1
+                        </span>
+                    </p>
+                </p>
+                <p>este parrafo es descendente
+                    <span> texto 2 </span>
+                </p>
+            </div>
+        </body>
+    </head>
+</html>
